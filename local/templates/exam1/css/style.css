@@ -807,6 +807,13 @@ input[type="submit"] {
   letter-spacing: -0.025em;
   font-family: 'HelveticaNeueCyrBold', sans-serif;
 }
+.button_vhod {
+  background: none !important;;
+  border: none !important;;
+  box-shadow: none !important;
+  text-decoration: underline !important;
+  font-weight: normal;
+}
 .owl-dot {
   display: inline-block;
   vertical-align: top;
@@ -1988,10 +1995,10 @@ hr + .catalog-box {
   padding-bottom: 70px;
   font-size: 14px;
   line-height: 20px;
-  
+
   border-radius: 3px;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
-  
+
 }
 .main-slider-box p {
   margin: 0;
@@ -2247,7 +2254,7 @@ hr + .catalog-box {
 }
 
 .opins-slider-box .section-title-block hr{
- margin-top: 10px; 
+ margin-top: 10px;
 }
 
 .opins-slider-box .title-block h1,
@@ -2674,7 +2681,7 @@ hr + .catalog-box {
 
 .review-block {
 	color:#4b4b4b;
-	
+
 	font-size:14px;
 	margin-top:30px;
 	min-height:85px;
@@ -2706,7 +2713,7 @@ hr + .catalog-box {
 }
 
 .review-block .review-autor {
-	float: right; 
+	float: right;
 	font-style: italic;
 	margin-top: 15px;
 }
@@ -2773,4 +2780,9 @@ hr + .catalog-box {
 .nav .menu .color-green{
   color: #00ff43;
 }
+.side-block .red {background: linear-gradient(#fda3a3, #ff0000);
 
+}
+.side-block .green {
+background: linear-gradient(#e2ffe7, #00ff43);
+}

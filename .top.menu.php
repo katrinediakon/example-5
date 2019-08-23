@@ -11,7 +11,7 @@ $aMenuLinks = Array(
 		"Компания", 
 		"company/", 
 		Array(), 
-		Array(), 
+		Array("TEXT"=>"текст для пункта Компания", "COLOR"=>"color-red"), 
 		"" 
 	),
 	Array(
@@ -25,7 +25,7 @@ $aMenuLinks = Array(
 		"Продукция", 
 		"products/", 
 		Array(), 
-		Array(), 
+		Array("COLOR"=>"color-green"), 
 		"" 
 	),
 	Array(
@@ -36,15 +36,29 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Контакты", 
-		"contacts/", 
+		"Партнерам", 
+		"/partneram/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Отзывы", 
+		"/otzyvy/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Поиск", 
+		"/search/index.php", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Опросы", 
-		"/ask/", 
+		"/oprosy/", 
 		Array(), 
 		Array(), 
 		"" 
